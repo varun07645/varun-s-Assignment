@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar {
+  padding: 1.5rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar h1 {
+  font-size: 2rem;
+}
+.navbar h1 sup {
+  color: rgb(158, 28, 28);
+}
+.share-detail-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-bottom: 20px;
+}
+.share-detail-container img {
+  border-radius: 13.5px;
+  height: 450px;
+}
+.share-detail-container-content {
+  display: flex;
+  flex-direction: column;
+}
+.share-detail-header {
+  margin-bottom: 1rem;
+}
+.share-detail-header p {
+  font-size: 10px;
+}
+.share-detail-header h1 {
+  font-weight: bolder;
+  font-size: 2.2rem;
+}
+.content-nav {
+  border-top: 1px solid rgb(222, 210, 210);
+  border-bottom: 1px solid rgb(222, 210, 210);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.content-nav span {
+  font-size: 8px;
+}
+.payment {
+  border: 1px solid rgb(222, 210, 210);
+  padding: 10px 20px;
+}
+.payment h4 {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+.payment span {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.share-detail {
+  margin-top: 20px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.term {
+  display: flex;
+  gap: 10px;
+}
+.term p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 10px;
+}
+.share-detail-container-content-button {
+  display: flex;
+  justify-content: center;
+}
+.share-detail-container-content button {
+  height: 3rem;
+  width: 7.5rem;
+  border-radius: 15px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(102, 0, 255),
+    rgb(214, 48, 48)
+  );
+}
+/* Sectio 2 */
+
+.benefits-of-investment {
+  margin-top: 20px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.info span {
+  font-size: 30px;
+  margin-right: 20px;
+}
+.buy-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(222, 210, 210);
+}
+.buy-flex {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1.8fr;
+}
+/* Connected section */
+.connected {
+  width: 100%;
+  height: 300px;
+  padding: 3rem;
+  background-color: rgb(23, 18, 18);
+}
+.link-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.more-project {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+.buying-area {
+  display: flex;
+  gap: 16px;
+}
+.buying-area-detail {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0 10px 0;
+}
+.buying-area-price {
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px 5px;
+}
+.buying-area-price button {
+  height: 2.2rem;
+  width: 5.5rem;
+  border-radius: 15px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(102, 0, 255),
+    rgb(214, 48, 48)
+  );
+}
+
+.last-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 5px 0;
+}
+.last-button button {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
